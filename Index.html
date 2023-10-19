@@ -29,29 +29,44 @@
         </div>
         <!--Deuxième ligne-->
         <!--Barre de navigation-->
-        <nav class="navbar navbar-expand-lg bg-primary">
+        <nav class="navbar navbar-expand-lg bg-primary rounded">
             <!--Conteneur fluide global-->
-            <div class="container-fluid">
+            <div class="container-fluid forme">
                 <!--Lien du site-->
-                <a class="navbar-brand" href="#">Autisme 28</a>
+                <a class="navbar-brand p-3 rounded" href="#">Autisme 28</a>
                 <!--Bouton pour le mobil first-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuCaché" aria-controls="MenuCaché" aria-expanded="false" aria-label="Menu de navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#MenuCaché" 
+                        aria-controls="MenuCaché" 
+                        aria-expanded="false" 
+                        aria-label="Menu de navigation">
+                    <span class="navbar-toggler-icon menufirst"></span>
                 </button>
                 <!--Contenu principal de ma page-->
-                <div class="collapse navbar-collapse" id="MenuCaché">
+                <div class="collapse navbar-collapse forme" id="MenuCaché">
+                    <!--Liste de lien de navigation-->
                     <ul class="navbar-nav">
+                        <!--Accueil-->
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil</a>
+                            <a class="nav-link p-3 rounded" href="#">Accueil</a>
                         </li>
+                        <!--Actualité-->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Actualité récente</a>
+                            <a class="nav-link p-3 rounded" href="#">Actualité récente</a>
                         </li>
+                        <!--Des question?-->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Des questions?</a>
-                            <ul class="dropdown-menu">
+                            <a class="nav-link dropdown-toggle p-3 rounded"  
+                               role="button" 
+                               data-bs-toggle="dropdown" 
+                               aria-expanded="false" 
+                               href="#">Des questions?</a>
+                            <!--Lien de la liste déroulante-->
+                            <ul class="dropdown-menu question">
                                 <li>
-                                    <a class="dropdown-item" href="#">Qu'est ce que c'est l'autisme?</a> 
+                                    <a class="dropdown-item rounded" href="#">Qu'est ce que c'est l'autisme?</a> 
                                 </li>
                                
                             </ul>

@@ -1,10 +1,19 @@
-h1,h2 { 
-    font-family: "Arial Narrow", Arial, sans-serif; 
-    font-size: 24px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 26.4px;
+.forme  a {
+    color: white;
     
- }
- 
+}
+.forme  a:hover  {
+    background-color: #3FBCFA;
+    color: white;
+}
+.forme button:hover{
+    color: white;
+    background-color: #3FBCFA ;
+}
+.forme .question a{
+    color: black;
+}
+.forme .question a:hover{
+    color: white;
+    
+}
