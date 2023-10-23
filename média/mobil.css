@@ -1,0 +1,10 @@
+@media screen and (max-width: 530px){
+    header .icons .bouton{
+        display: flex;
+        justify-content: end;
+        width: auto;
+    }
+    header .titre{
+        text-align: justify;
+    }
+}

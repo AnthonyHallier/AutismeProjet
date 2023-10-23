@@ -26,18 +26,24 @@ html{
     color: white;
     
 }
-header .logo{
+header div .logo{
    
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
    
    
     
 }
+header .entête{
+    display: flex;
+    justify-content: end;
+}
 .don{
     background-color: #E70739;
     color: white;
+    display: flex;
+    justify-content: center;
     
 }
 .adhérer{
@@ -70,6 +76,7 @@ header .titre{
     color: #375D81;
     
 }
+
 
 
 
