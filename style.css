@@ -3,6 +3,7 @@ html{
     height: 100%;
 }
 
+
 .forme  a {
     color: white;
     
@@ -40,25 +41,33 @@ header .logo{
     
 }
 .adhérer{
-    background-color: goldenrod;
+    background-color: #5EB6DD;
     color: white;
     
 }
 .don:hover{
     background-color: lightcoral;
 }
+.don span{
+    font-weight: bold;
+}
 .adhérer:hover{
-    background-color: #F6E497;
+    background-color: #C4D7ED;
+}
+.adhérer span{
+    font-weight: bold;
 }
 
 
+img{
+    color: aliceblue;
+}
 header .titre{
     
     display: flex;
     align-items: start;
     color: #78A419;
 }
-
 
 
 
