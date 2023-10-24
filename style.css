@@ -4,6 +4,7 @@ html{
 }
 
 
+
 .forme  a {
     color: white;
     
@@ -76,6 +77,15 @@ header .titre{
     color: #375D81;
     
 }
+main .autisme28{
+    text-align: center;
+    background-color: whitesmoke;
+    color: #375D81;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
 
 
 
