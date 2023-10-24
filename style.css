@@ -85,7 +85,10 @@ main .autisme28{
     
     
 }
-
+footer{
+    background-color: #375D81;
+    display: flex;
+    justify-content: center;
 
 
 
