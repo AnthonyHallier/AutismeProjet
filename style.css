@@ -3,12 +3,16 @@ html{
     height: 100%;
 }
 
+body header .entête{
+    margin: 20px;
+}
 
 
 .forme  a {
     color: white;
     
 }
+
 
 .forme  a:hover  {
     background-color: #3FBCFA;
@@ -39,6 +43,8 @@ header div .logo{
 header .entête{
     display: flex;
     justify-content: end;
+    
+    
 }
 .don{
     background-color: #E70739;
